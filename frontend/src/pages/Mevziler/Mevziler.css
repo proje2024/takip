@@ -1,0 +1,131 @@
+.app.dark .mevziler-main-container,
+.mevziler-main-container {
+  margin-top: 64px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  padding: 0px !important;
+  box-shadow: none !important;
+  background-image: none !important;
+  background-color: transparent !important;
+  position: relative !important;
+
+  max-width: 100vw !important;
+  height: 90vh;
+  align-items: center !important;
+}
+
+tr.MuiTableRow-root:hover {
+  background-color: rgb(79, 125, 85, 0.2);
+}
+
+.MuiTableContainer-root {
+  overflow-x: auto !important;
+  overflow-y: visible !important;
+}
+
+.app.dark .mevzi-delete-icon,
+.mevzi-delete-icon,
+.app.dark .mevzi-export-icon,
+.mevzi-export-icon,
+.app.dark .mevzi-ip-icon,
+.mevzi-ip-icon,
+.app.dark .mevzi-filter-icon,
+.mevzi-filter-icon,
+.app.dark .mevzi-edit-icon,
+.mevzi-edit-icon,
+.mevzi-alty-icon,
+.app.dark .mevzi-alty-icon {
+  color: white !important;
+}
+
+.app.dark .mevzi-delete-icon:hover,
+.mevzi-delete-icon:hover,
+.app.dark .mevzi-export-icon:hover,
+.mevzi-export-icon:hover,
+.app.dark .mevzi-ip-icon:hover,
+.mevzi-ip-icon:hover,
+.app.dark .mevzi-edit-icon:hover,
+.mevzi-edit-icon:hover,
+.mevzi-filter-icon:hover,
+.app.dark .mevzi-filter-icon:hover,
+.app.dark .mevzi-alty-icon:hover,
+.mevzi-alty-icon:hover {
+  color: #cecece !important;
+}
+
+.app.dark .no-mevzi-empty-message,
+.no-mevzi-empty-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px !important;
+  font-size: larger !important;
+  font-weight: 800 !important;
+}
+
+.css-1jjkkyv {
+  background-color: #282828;
+}
+
+.sticky-pagination {
+  position: sticky !important;
+  bottom: 0 !important;
+  z-index: 10 !important;
+  background-color: #1f1f1f !important;
+}
+
+.app.dark .mevziler-table-main-container,
+.mevziler-table-main-container {
+  margin-bottom: 30px !important;
+  border-radius: 8px !important;
+  width: calc(100% - 48px) !important;
+  background-color: transparent !important;
+  scrollbar-width: thin !important;
+}
+
+.app.dark .mevziler-main-big-header,
+.mevziler-main-big-header {
+  font-size: 2rem !important;
+  font-weight: 600 !important;
+  color: white !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 20px 0px 20px !important;
+}
+
+.mevziler-sticky-header {
+  background-color: transparent !important;
+  z-index: 10 !important;
+}
+
+.MuiTableRow-root {
+  /* z-index: 1; */
+  position: relative !important;
+}
+
+.mevzi-add-button-in-header:hover {
+  background-color: rgb(79, 125, 85, 0.2) !important;
+}
+
+
+.mevziler-page-header-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.mevziler-page-search-bar {
+  right: 0;
+  position: absolute;
+  padding: 40px;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+.highlight {
+  background-color: var(--highlight-color) !important;
+  font-weight: bold;
+}
